@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .ship-pay-review-container{
+    display: flex;
+    width: 100%;
+    background-color:  #D9D9D933;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    justify-content: center;
+    gap: 32px;
+   
+  }
+  
+  .ship-container{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    color:#000000 ;
+  }
+  .paymentt-container{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    color:#000000 ;
+  }
+  .revieww-container{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    color:#000000 ;
+  }
+  .successful-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+  }
+  .ts-container{
+    padding-top: 1%;
+    font-size: 28px;
+    font-weight: 500;
+    color: #121212;
+  }
+  .yp-container{
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 0.8%;
+  }
+  .print-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+    padding-top: 4%;
+  }
+  .pr-btn{
+    background-color: #411530;
+    height: 70px;
+    width: 25%;
+    line-height: 24px;
+    font-size: 28px;
+    font-weight: 600;
+    color:#FFFFFF ;
+    border-radius: 12px;
+   
+  }
+  .goback-container{
+    display: flex;
+    justify-content: center;
+  }
+  .gb-btn{
+    background-color: #411530;
+    height: 70px;
+    width: 25%;
+    line-height: 24px;
+    font-size: 28px;
+    font-weight: 600;
+    color:#FFFFFF ;
+    border-radius: 12px;
+  }
+  

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .ship-pay-review-container{
+    display: flex;
+    width: 100%;
+    background-color:  #D9D9D933;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    justify-content: center;
+    gap: 32px;
+   
+  }
+  
+  .ship-container{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    color:#000000 ;
+  }
+  .paymentt-container{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    color:#000000 ;
+  }
+  .revieww-container{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    color:#000000 ;
+  }
+  .please-container{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 1%;
+  }
+  .agree-container{
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+  }
+  .pe-container{
+    display: flex;
+    padding: 1%; 
+    justify-content: space-between;  
+    width: 90%;
+    border:1px solid #000000;
+    border-radius: 12px;
+    line-height: 28px;
+  }
+  .shippp-container{
+    display: flex;
+    padding: 1%; 
+    justify-content: space-between;  
+    width: 90%;
+    border:1px solid #000000;
+    border-radius: 12px;
+    line-height: 28px;
+  }
+  .order-container{
+    display: flex;
+    padding: 1%; 
+    justify-content: space-between;  
+    width: 90%;
+    border:1px #000000;
+    line-height: 28px;
+  }
+  .grand-container{
+    display: flex;
+    padding: 1%; 
+    justify-content: space-between; 
+    width: 90%;
+    line-height: 28px;
+  }
+  .btn-container{
+    display: flex;
+    justify-content: center;
+  }
+  .submit-btn{
+    background-color: #411530;
+    height: 70px;
+    width: 25%;
+    line-height: 24px;
+    font-size: 28px;
+    font-weight: 600;
+    color:#FFFFFF ;
+    border-radius: 12px;
+  }
+  
+  
+  

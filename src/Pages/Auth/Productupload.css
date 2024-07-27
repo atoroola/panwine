@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.upload-container{
+    display: flex;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #411530;
+    padding-top: 30px;
+    padding-left: 1%;
+    
+}
+.form-con {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+  }
+
+.product-form {
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    
+  }
+  .product-content{
+    padding: 0px 4.44%;
+  }
+.auth-input {
+    
+    height: 40px;
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid #411530;
+    /* padding: 16px; */
+   
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 32px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #411530;
+    
+  }
+  .image-click{
+    display: flex;
+    width: 90%;
+    height: 380px;
+    border: 1px dashed black;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    
+  }
+  .click-caption{
+    font-size: 28px;
+    font-weight: 500;
+    display: flex;
+    color: #411530;
+    width: 50%;
+    /* padding: 80px; */
+    /* padding-top: 150px; */
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* justify-content: center; */
+  }
+  
+  .upload-cont{
+    background-color: #411530; 
+    display: flex;
+    width: 90%;
+    /* padding-left: 50%; */
+    /* padding-right: 50%; */
+    height: 62px;
+    border-radius: 12px;
+    /* padding: 3%; */
+    justify-content: center; 
+  }
+  .up-btn{
+    background-color: #411530; 
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    width: 10%;
+    height: 28px;
+    border-radius: 12px;
+    padding-top: 1%;
+    
+  }

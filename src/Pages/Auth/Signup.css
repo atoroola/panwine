@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.signup-main {
+  width: 100%;
+  height: 100%;
+}
+.mage-container {
+  width: 100%;
+  display: flex;
+  height: 100%;
+}
+.signup-mage {
+  width: 50%;
+  height: 100%;
+}
+.signup-form-container {
+  width: 50%;
+  height: 100%;
+  padding: 112px 0px 0px 96px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 50%;
+  width: 50%;
+}
+.child-auth-form {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.signup-form-create {
+  color: #411530;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.signup-input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.signup-label {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: flex-start;
+  line-height: 24px;
+}
+
+.signup-input {
+  height: 56px;
+  width: 420px;
+  border-radius: 8px;
+  border: 1px solid #f9e3f0;
+  padding: 16px;
+}
+
+.signup-btn {
+  height: 56px;
+  width: 420px;
+  border-radius: 8px;
+  background-color: #80295e;
+  border: none;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.vector-icon {
+  align-items: start;
+  justify-content: baseline;
+  width: 20px;
+  height: 20px;
+  padding: 2px 0px 0px 2px;
+}
+
+.signin-btn {
+  height: 56px;
+  width: 420px;
+  border-radius: 8px;
+  color: #80295e;
+  border: 8px;
+  border-color: #80295e;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  gap: 16px;
+}
+
+.signin-advice {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #411530;
+  text-decoration: none;
+}
+.sign-in {
+  text-decoration: none;
+}

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ship-pay-re-container{
+  display: flex;
+  width: 100%;
+  background-color:  #D9D9D933;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  justify-content: center;
+  gap: 32px;
+ 
+}
+
+.shipping-container{
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  color:#000000 ;
+}
+.payment-container{
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  color:#000000 ;
+}
+.review-container{
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  color:#000000 ;
+}
+.choose-container{
+  display: flex;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  color:  #121212;
+  padding-top: 1%;
+  padding-left: 5.8%;
+}
+.charged-container{
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  color:   #000000;
+  padding-top: 1%;
+  padding-left: 5.8%;
+}
+
+.credit-card-container{
+   display: flex; 
+   flex-direction: column;
+   justify-content: space-between;
+  
+}
+.cc-container{
+  display: flex;
+  height: 32px;
+  font-size: 24px;
+  font-weight: 500; 
+  color: #121212;
+  line-height: 32px;
+  padding-top: 2%; 
+  padding-left: 5.8%;
+}
+.ap-container{
+   display: flex;
+  height: 32px; 
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #121212;
+  padding-left: 5.8%; 
+  padding-top: 2%; 
+}
+.pp-container{
+  display: flex;
+  height: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #121212;
+  padding-left: 5.8%; 
+  padding-top: 2%; 
+}
+.ps-container{
+  display: flex;
+  height: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #121212;
+  padding-left: 5.8%; 
+  padding-top: 2%; 
+}
+.btn-container{
+  display: flex;
+  padding-top: 15%;
+  /* width: 50%; */
+  justify-content: center;
+  align-items: center;
+ 
+}
+.btn{
+  background-color: #411530;
+  height: 100px;
+  width: 30%;
+  line-height: 38px;
+  font-size: 32px;
+  font-weight: 800;
+  color:#FFFFFF ;
+  border-radius: 12px;
+  
+
+}
+  
+  
+  

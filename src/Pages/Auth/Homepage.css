@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .newnav-container{
+  width: 100%;
+} */
+
+.wine-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 920px;
+  background-image: url("../../../public/images/setofwines.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.wine-image {
+  width: 100%;
+  height: 50%;
+}
+.wine-caption-container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 30%;
+  justify-content: space-between;
+  
+  /* padding: 112px 0px 0px 96px;  */
+}
+
+
+.taste-caption {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 72px;
+  align-items: center;
+  color: #ffffff;
+ 
+}
+.browse-caption{
+ color: #ffffff;
+ font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.explore-btn{
+  color: #ffffff;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #80295E;
+ 
+}
+/* .explore-btn-container{
+width: 10%;
+ height: 24px;
+ background-color: #80295E;
+ align-items: center;
+} */
+.view-more-container{
+  display: flex;
+  justify-content: center; 
+  width: 100%;
+  height: 10%;
+  background-color: #ffffff;
+  padding-bottom: 2%; 
+ 
+}
+.view-morebtn{
+  width: 10%;
+  height: 10%; 
+  color: #411530;
+  gap: 12px;
+  font-size:24px ;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 0.3%;
+  padding-top: 0.3%; 
+  
+}
+.below-caption-container{
+  background-color: #80295E;
+  display: flex;
+  justify-content: space-between; 
+    width: 100%;
+    padding-top: 3%; 
+    padding-bottom: 3%;
+    height: 30%;
+  
+  
+}
+.pan-caption{
+  display: flex;
+  flex-direction: column;
+  color:#ffffff ;
+  padding-left: 2%; 
+  font-weight: 800;
+  font-size: 25px;
+  width: 27%;
+  height: 10%; 
+}
+ .home-for{
+  padding-top: 2%; 
+ padding-left: 2%;
+} 
+.h-page-container{
+  display: flex;
+  flex-direction: column;
+  color:#ffffff ;
+  /* justify-content: center; */
+ padding-left: 20%; 
+  font-weight: 300;
+  font-size: 16px;
+  width: 30%;
+  height: 10%; 
+}
+
+ .contact-container{ 
+   display: flex;
+  flex-direction: column; 
+  color: #ffffff;
+  padding-left: 20%; 
+  font-weight: 300;
+  font-size: 16px;
+  width: 50%;
+  height: 10%;
+  
+  
+} 
+
