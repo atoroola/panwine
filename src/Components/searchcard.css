@@ -7,37 +7,19 @@
   box-sizing: border-box;
 }
 
-.whole-container {
+.wholee-container {
   width: 100%;
   height: 100%;
   gap: 32px;
   background-color: #fff;
 }
 
-.suggestion-container {
-  display: flex;
-  font-family: "playfair";
-  padding: 32px;
-  color: #411530;
-  background-color: #fff;
-  width: 100%;
-}
-.suggestion {
-  font-family: "playfair";
-  color: #411530;
-  padding-top: 1%;
-  font-size: 32px;
-  font-weight: 900;
-  line-height: 24px;
-  letter-spacing: 0%;
-}
-
-.product-image {
+.productt-image {
   border-radius: 16px;
   width: 380px;
   height: 330px;
 }
-.winecard-container {
+.winecardd-container {
   color: #411530;
   background-color: #fff;
   display: flex;
@@ -47,27 +29,27 @@
   gap: 64px;
   flex-wrap: wrap;
 }
-.title-container {
+.titlee-container {
   display: flex;
   flex-direction: column;
   width: 380px;
   padding-top: 1%;
   padding-bottom: 2%;
 }
-.clearspring {
+.cllearspring {
   font-size: 18px;
   width: 310px;
   height: 24px;
   font-weight: 700;
   color: #411530;
-  font-family: "playfair";
+  font-family: "playfair display";
   display: flex;
   justify-content: flex-start;
   line-height: 24px;
   letter-spacing: 1%;
   align-items: center;
 }
-.clearspringgg {
+.clearspringggg {
   font-size: 12px;
   width: 310px;
   height: 24px;
@@ -79,7 +61,7 @@
   line-height: 16px;
   align-items: center;
 }
-.plusminus-container {
+.plusminus-containerr {
   display: flex;
   align-items: center;
   align-content: center;
@@ -90,7 +72,7 @@
   padding: 12px;
   background-color: #f9f6f8;
 }
-.minus {
+.minuss {
   /* display: flex; */
   background-color: #f9e3f0;
   color: #411530;
@@ -101,13 +83,9 @@
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  border: none;
   padding-bottom: 1%;
-  /* padding-top: 4px; */
-  /* padding-left: 4px;
-  padding-right: 4px; */
 }
-.hundred {
+.hundrredd {
   display: flex;
   background-color: #ffffff;
   font-weight: 600;
@@ -118,10 +96,8 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 1%;
-  /* padding-top: 4px;
-  padding-left: 4px; */
 }
-.plus {
+.pluss {
   /* display: flex; */
   background-color: #f9e3f0;
   color: #411530;
@@ -132,10 +108,9 @@
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  border: none;
   padding-bottom: 1%;
 }
-.naira {
+.nairaa {
   display: flex;
   width: 70%;
   height: 32px;

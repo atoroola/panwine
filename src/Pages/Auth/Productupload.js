@@ -1,14 +1,16 @@
 import React from "react";
 import "./Productupload.css";
 import { Link } from "react-router-dom";
-import Navchop from "../../Components/Navchop";
+import Nav from "../../Components/Nav/Nav";
 
 function Productupload() {
   return (
     <div>
-       <Navchop />
+      <Nav />
       <div className="product-content">
-      <p className="upload-container">Upload Photo</p>
+        <p className="upload-container">Upload Photo</p>
+      </div>
+
       <form className="form-con">
         <div className="product-form">
           <input
@@ -42,18 +44,15 @@ function Productupload() {
             className="auth-input"
           />
         </div>
+        <div className="image-click">
+          <div className="click-caption">
+            <p> Click to select image </p> <p>Browse</p>{" "}
+          </div>
+        </div>
+        <div className="upload-cont">
+          <button className="up-btn">Upload</button>
+        </div>
       </form>
-      <div className="image-click">
-        <p className="click-caption">
-          Click to select image <div>Browse</div>{" "}
-        </p>
-      </div>
-      <div className="upload-cont">
-        <button className="up-btn">Upload</button>
-      </div>
-      </div>
-      
-     
     </div>
   );
 }

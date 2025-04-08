@@ -36,13 +36,13 @@
   align-items: flex-start;
 }
 
-.checkout-input-field {
+.checkout-input-fielddd {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.checkout-label {
+.checkout-labelll {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -51,9 +51,9 @@
   align-items: flex-start;
 }
 
-.checkout-input {
+.checkout-inputtt {
   height: 56px;
-  width: 420px;
+  width: 425px;
   border-radius: 8px;
   border: 1px solid #f9e3f0;
   padding: 16px;
@@ -61,7 +61,7 @@
 
 .confirm-btn {
   height: 56px;
-  width: 420px;
+  width: 425px;
   border-radius: 8px;
   background-color: #80295e;
   border: none;

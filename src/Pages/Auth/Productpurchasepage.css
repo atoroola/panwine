@@ -4,12 +4,15 @@
     box-sizing: border-box;
   }
   .themain-container{
-    width: 35%;
+    width: 70%;
+     padding-left: 15%;   
+     /* padding-right: 15%; */
   }
   .panwine-container{
     font-size: 32px;
     font-weight: 700;
     color: #411530;
+    
   }
   .sa-container{
     font-size: 28px;

@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Error from "../Error";
-import Home from "../Pages/Home/Index";
+// import Home from "../Pages/Home/Index";
 import Login from "../Pages/Auth/Login";
 import Signup from "../Pages/Auth/Signup";
 import ForgotPassword from "../Pages/Auth/ForgotPassword";
@@ -17,6 +17,10 @@ import Checkoutpageform from "../Pages/Auth/Checkoutpageform";
 import Checkoutpagesummary from "../Pages/Auth/Checkoutpagesummary";
 import Checkoutpagemain from "../Pages/Auth/Checkoutpagemain";
 import Productpurchasepage from "../Pages/Auth/Productpurchasepage";
+import Navbar from "../Components/Nav/navbar";
+import NewNav from "../Components/NewNav";
+import SearchCard from "../Components/searchcard";
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -25,27 +29,26 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
+        element: <Homepage />,
       },
       { path: "/login", element: <Login /> },
       { path: "/signup", element: <Signup /> },
       { path: "/forgot-password", element: <ForgotPassword /> },
       { path: "/home-page", element: <Homepage /> },
       { path: "/winecard", element: <WineCard /> },
-      {path: "/searchpage", element:<Searchpage/>},
-      {path: "/shoppingcart", element:<Shoppingcart/>},
-      {path: "/productupload", element:<Productupload/>},
-      {path: "/cartshopping", element:<Cartshopping/>},
-      {path: "/checkoutpage", element:<Checkoutpage/>},
-      {path: "/checkoutpagealt", element:<Checkoutpagealt/>},
-      {path: "/checkoutpageform", element:<Checkoutpageform/>},
-      {path: "/checkoutpagesummary", element:<Checkoutpagesummary/>},
-      {path: "/checkoutpagemain", element:<Checkoutpagemain/>},
-      {path: "/productpurchasepage", element:<Productpurchasepage/>},
-      
-
-
-
+      { path: "/searchcard", element: <SearchCard /> },
+      { path: "/searchpage", element: <Searchpage /> },
+      { path: "/shoppingcart", element: <Shoppingcart /> },
+      { path: "/productupload", element: <Productupload /> },
+      { path: "/cartshopping", element: <Cartshopping /> },
+      { path: "/checkoutpage", element: <Checkoutpage /> },
+      { path: "/checkoutpagealt", element: <Checkoutpagealt /> },
+      { path: "/checkoutpageform", element: <Checkoutpageform /> },
+      { path: "/checkoutpagesummary", element: <Checkoutpagesummary /> },
+      { path: "/checkoutpagemain", element: <Checkoutpagemain /> },
+      { path: "/productpurchasepage", element: <Productpurchasepage /> },
+      { path: "/navbar", element: <Navbar /> },
+      { path: "/newnav", element: <NewNav /> },
     ],
   },
 ]);

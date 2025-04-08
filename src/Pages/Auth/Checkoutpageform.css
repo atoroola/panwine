@@ -35,16 +35,16 @@
   line-height: 32px;
   color:#000000 ;
 }
-.choose-container{
+.cchoose-container{
     display: flex;
-    font-size: 28px;
+    font-size: 34px;
     font-weight: 600;
     line-height: 36px;
     color:  #121212;
     padding-top: 1%;
     padding-left: 5.8%;
   }
-  .charged-container{
+  .cccharged-container{
     display: flex;
     font-size: 20px;
     font-weight: 400;
@@ -54,8 +54,9 @@
     padding-left: 5.8%;
   }
 
-  .cc-container{
+  .cccc-container{
     display: flex;
+    align-items: center;
     height: 32px;
     font-size: 24px;
     font-weight: 500; 
@@ -63,15 +64,16 @@
     line-height: 32px;
     padding-top: 2%; 
     padding-left: 5.8%;
+    gap: 8px;
   }
-  .checkout- form-container{
+  .checkout- formmmm-container{
     display: flex;
     width: 90%; 
    
    
     
   }
-  .form-cont {
+  .form-conttttt {
     display: flex;
     flex-direction: column;
     gap: 38px;
@@ -79,14 +81,15 @@
     padding-top: 2%;
     
   }
-  .checkout-input-field{
-  height: 40px;
+  .chhhheckout-input-field{
+  height: 60px;
   width: 90%;
   border-radius: 8px;
   border: 1px solid  #121212;
   color: #411530;
   padding-top: 25px;
   padding-bottom: 25px;
+  padding-left: 1%;
   gap: 32px;
   font-size: 24px;
   font-weight: 400;
@@ -98,7 +101,7 @@
     gap: 50px;
   }
   .security-field{
-  height: 40px;
+  height: 60px;
   width: 50%;
   border-radius: 8px;
   border: 1px solid  #121212;
@@ -106,7 +109,9 @@
    padding-top: 25px;
   padding-bottom: 25px; 
   font-size: 24px;
+  padding-left: 1%;
   font-weight: 400;
+  
   }
   .btn-container{
     display: flex;
@@ -114,7 +119,7 @@
     /* width: 50%; */
     justify-content: center;
     align-items: center;
-   
+   padding-top: 10%;
   }
   .btn{
     background-color: #411530;

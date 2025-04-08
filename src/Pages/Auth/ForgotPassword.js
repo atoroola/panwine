@@ -1,13 +1,13 @@
 import React from "react";
-import AuthNav from "../../Components/Nav/Nav";
 import { Link } from "react-router-dom";
 import "./ForgotPassword.css";
+import NewNav from "../../Components/NewNav";
 
 function ForgotPassword() {
   return (
     <div className="forgot-main">
       {" "}
-      <AuthNav />
+      <NewNav />
       <div className="forgot-container">
         <img src="../../images/wine.png" alt="wine" className="forgot-mage" />
         <div className="forgot-form-container">
@@ -38,13 +38,16 @@ function ForgotPassword() {
               />
             </div>
             <div>
-              <button className="submit-btn">Submit</button>
+              <button className="submitt-btnnn">Submit</button>
             </div>
             <div>
               {" "}
-              <span className="forgot-advice">
-                Already have an account? Sign In
-              </span>
+              <Link to="/login">
+                {" "}
+                <span className="forrrgot-advice">
+                  Already have an account? Sign In
+                </span>{" "}
+              </Link>
             </div>
           </form>
         </div>

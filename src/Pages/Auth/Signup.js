@@ -1,13 +1,13 @@
 import React from "react";
-import AuthNav from "../../Components/Nav/Nav";
 import "./Signup.css";
 import { Link } from "react-router-dom";
+import NewNav from "../../Components/NewNav";
 
 function Signup() {
   return (
     <div className="signup-main">
       {" "}
-      <AuthNav />
+      <NewNav />
       <div className="mage-container">
         <img src="../../images/wine.png" alt="wine" className="signup-mage" />
         <div className="signup-form-container">

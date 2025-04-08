@@ -1,46 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
+
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-  }
-  .text-container{
-    display: flex;
-    flex-direction: column;
-    padding: 80px;
-    
-  }
-.empty-cart{
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 60px;
-    color: #411530;
-    padding-top: 200px;
-    padding-left: 150px;
-    display: flex;
-    justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
-.explore{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 12px;
-    color: #411530;
-    align-items: center;
-    padding-top: 20px;
-    padding-left: 120px;
-    display: flex;
-    justify-content: center;
+.shopping-main-container {
+  width: 100%;
+  height: 100%;
 }
-.explore-container{
-    padding-top: 200px;
-    padding-left: 120px;
+/* .text-container {
+  display: flex;
+  width: 100%;
+  height: 100%; */
+/* padding: 80px; */
+
+.empty-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 400px;
+  width: 100%;
+  height: 60px;
+  color: #411530;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  gap: 16px;
+  letter-spacing: 0%;
+  font-family: "inter";
 }
-.explore-btn{
-    
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: 400;
-    padding: 8px;
-    border-radius: 12px;
-    background-color: #411530;
-    gap: 8px;
+.our-pdt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 200px;
+  height: 36px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #411530;
+  letter-spacing: 0%;
+  font-family: "inter";
+}
+.explorea-btn-main-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  line-height: 36px;
+  align-items: center;
+}
+
+.explorea-btn {
+  width: 280px;
+  height: 52px;
+  background-color: #411530;
+  border: none;
+  color: #ffffff;
+  font-family: "inter";
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 12px;
+  line-height: 32px;
 }
